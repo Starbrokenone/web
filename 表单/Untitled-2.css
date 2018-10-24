@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+#fo{position: absolute;
+	left: 45%;
+}
+#em{margin: 0 auto;
+	line-height: 40px;
+}
+#em button{margin: 20px;}
+.fx{text-align: left;
+	border: none;
+	margin-left: 70px;
+	margin-top: -40px;
+}
+.t{overflow-x:hidden;
+	overflow-y: scroll;
+	
+}

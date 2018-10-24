@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style type="text/css">
+</style>
+<link href="Untitled-2.css" rel="stylesheet" type="text/css">
+<title>表单</title>
+<script language="javascript">
+            function valuedate(f){
+				
+
+                var value = f.mytext.value;
+                if(!/^\w+@\w+.\w+$/.test(value)){
+                    alert("邮箱格式不正确！请重新输入");
+                    f.mytext.focus();
+                    f.mytext.select();
+                    return false;
+                }else{
+                return true;
+                }
+				
+            }
+	
+        </script>
+</head>
+
+<body>
+<h1 align="center">请留下个人资料</h1>
+<div id="fo">
+<form  id="em" onsubmit="return valuedate(this)" >
+	姓名：<input name="user"><br/>
+	E-mail:&nbsp;<input type="email"><br/>
+	电话：<input type="tel"><br/>
+	性别：<input type="radio" name="sex" checked value="1">女
+	     <input type="radio" name="sex">男<br/>
+	年龄：<select name="age">//20以下、20、21、22、23、24、25、25以上
+			<option value="1">20以下</option>
+			<option value="2">20</option>
+			<option value="3">21</option>
+			<option value="4">22</option>
+			<option value="5">23</option>
+			<option value="6">24</option>
+			<option value="7">25</option>
+			<option value="8">25以上</option>	
+		</select><br/>
+	留言板：<textarea class="t" name="content" cols="50" rows="10"></textarea><br/>
+	<p class="ho">您的爱好：</p><fieldset class="fx">
+		<input type="checkbox">运动<br/>
+			<input type="checkbox">阅读<br/>
+			<input type="checkbox">听音乐<br/>
+			<input type="checkbox">旅游<br/>
+			</fieldset>
+	<button type="submit">提交</button>
+	<button type="reset">全部重写</button><br/>
+</form>
+</div>
+</body>
+</html>
