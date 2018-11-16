@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "微软雅黑", sans-serif;
+    outline: none;
+}
+body {
+    color: #7c7873;
+    background: #D7D7D7;
+}
+.wrap {
+    width: 530px;
+    height: 730px;
+    margin: 50px auto;
+    position: relative;
+    transition: height 0.6s linear;
+}
+
+.wrap:before {
+    content: '';
+    display: block;
+    background: url("before.png");
+    position: absolute;
+    bottom: 200px;
+    width: 530px;
+    height: 316px;
+}
+
+.wrap:after {
+    content: '';
+    background: url("after.png");
+    position: absolute;
+    width: 530px;
+    height: 260px;
+    bottom: 74px;
+}
+.wrap h1 {
+    font-size: 50px;
+    text-align: center;
+}
+textarea {
+    resize: none;
+    height: 160px;
+    width: 450px;
+    background: rgba(0,0,0,0.068);
+    border: 0;
+    border-radius: 4px;
+}
+
+input {
+    background: rgba(0,0,0,0.068);
+    border: 0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+p {
+    font-size: 25px;
+    color: black!important;
+}
+#form-wrap {
+    position: relative;
+    width: 530px;
+    height: 500px;
+    padding: 20px;
+    transition: height 0.6s linear;
+    overflow: hidden;
+}
+
+#form-wrap:hover form{
+    top: 0;
+}
+
+form {
+    background: #f7f2ec;
+    padding: 20px;
+    position: relative;
+    top: 310px;
+    transition: all 0.6s linear;
+}
+p, label , input {
+    margin: 10px;
+}
+input[type=submit] {
+    background: transparent;
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+}
