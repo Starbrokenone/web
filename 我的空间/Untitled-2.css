@@ -1,0 +1,153 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{
+	font-size: 12px;
+    text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+
+}
+#body {background: #FFFFFF}
+/*登陆界面*/
+#loading{background: rgba(241,239,239,.4);
+         height: 460px;
+         width:360px; 
+         margin-top: 100px;
+         margin-right: auto;
+         margin-left: auto;
+         text-align: center;
+	     vertical-align: middle;
+	     display: none;
+	     
+	
+	
+
+}
+#loading input{display: block; height: 30px;width:220px;margin-right: auto;margin-left: auto;margin-top: 20px;;
+}
+#avatar{height: 120px;width: 120px; overflow: hidden; margin-top: 40px;border:1px solid #fff; border-radius: 50%;margin:0 auto;margin-top: 40px}
+#avatar img{height: 120px;width:auto;}
+#loding{display: block; background-color: #FFF;height: 30px;width:220px; margin-top: 20px;margin-right: auto;margin-left: auto; line-height: 30px;border-radius: 6px;cursor: pointer;color: #000000}
+#closebtn{display:block;height:29px; width: 29px; background:url(image/QQ图片20171205011321.png);position: relative;top: 5px; right: -325px;cursor: pointer;
+}
+
+/*导航栏*/
+#menu{background: #87DEF4;width: 600px;height: 40px;margin: 0 auto;}
+ul{list-style: none;}
+ul li{float:left;line-height: 40px;text-align: center;position: relative;margin-left: 20px;}
+a{text-decoration: none;display: block;color: aliceblue;padding: 0;height: 40;}
+ul li a:hover{color:#666}
+ul li ul li{float:none;margin-top: 2px;margin-left: auto;}
+ul li ul{width: 120px;position: absolute;top: 40px;left: 0; display: none;background: #D085EC;}
+ul li:hover ul{display: block;}
+ul li ul a:visited {color:beige;text-decoration:none} 
+#user{display:block;height:38px; width: 38px; background:url(image/QQ图片20171207164702.png);position: relative;top: 38px; right: -240px;cursor: pointer;
+}
+/*滚动界面*/
+
+.section{
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+	font-family: "华文行楷";
+	
+	
+	
+}
+/*第一屏样式设置*/
+.section1{
+    background:url(image/未标题-1.jpg);
+    background-size:100%;
+}
+.section1 h1{
+    margin-top: 5%;
+    color: #fff;
+    font-size: 43px;
+    font-weight:normal;
+    opacity: .7;
+
+}
+.section1 h2{
+    margin-top: 5%;
+    color: #CBC2E5;
+    font-size: 25px;
+	line-height: 45px;
+    font-weight:normal;
+	
+   
+
+}
+.section1 p{
+    margin: 200px auto 0;
+    color: #fff;
+    font-size: 30px;
+    width: 60%;
+    opacity: .9;
+	font-family: '微软雅黑';
+}
+.section1 a{
+    display: block;
+    margin: 5% auto 0;
+    color: #ff9000;
+    font-size: 18px;
+    opacity: .9;
+	font-family: '微软雅黑'}
+/*第二屏样式设置*/
+.section2{
+    background: #f2f2f2;
+    background-size: 100%;
+}
+.section2 h1{
+    margin: 20px auto;
+    color: #333;
+    font-size: 50px;
+    font-weight: normal;
+}
+.section2 a{
+    display: block;
+    margin: 20px auto 0;
+    color: #08c;
+    font-size: 18px;
+	
+	
+}
+/*第三屏样式设置*/
+.section3{
+    background: url(image/bg-3.jpg) no-repeat center;
+    background-size:100%;
+}
+.section3 h1{
+    margin: 20px auto 20px -1500px;
+    color: #333;
+    font-size: 40px;
+    font-weight: normal;
+    width: 60%;
+}
+.section3 p{
+    margin: 20px auto 0 1500px;
+    color: #333;
+    font-size: 18px;
+    width: 60%;
+   
+}
+.section3 a{
+    display: block;
+    margin: 20px auto 0;
+    color: #08c;
+    font-size: 18px;
+}
+/*第四屏样式设置*/
+.section4 h1{
+    margin: 20px auto;
+    color: #333;
+    font-size: 40px;
+    font-weight: normal;
+}
+.section4 p{
+    margin:auto;
+    color: #333; 
+    font-size: 18px;
+	font-family: '微软雅黑'}
+    
+	

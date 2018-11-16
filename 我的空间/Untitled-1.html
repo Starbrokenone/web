@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="vievport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+<title>我的空间</title>
+<style type="text/css">
+</style>
+<link href="Untitled-2.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.9/jquery.fullPage.css">
+<script>
+	window.onload = function(){
+	var TipBox = document.getElementById("loading");
+	var closebtn = document.getElementById("closebtn");
+		var user = document.getElementById("user");
+		closebtn.onclick = function(){
+		TipBox.style.display = 'none';}
+		user.onclick = function(){
+		TipBox.style.display = 'block';}
+	}
+	
+	</script>
+	
+</head>
+
+<body>
+<a  herf="javascript:void(0);" id="user"></a>
+<!--导航栏-->
+<div id = "menu">
+	<ul id ="logo">
+		<li><a href="#">好友动态</a></li>
+		<li><a href="#">与我相关</a></li>
+		<li><a href="#">特别关心</a></li>
+		<li><a href="#">那年今日</a></li>
+		<li><a href="#">游戏应用</a>
+		    <ul>
+				<li><a href="#">我的农场</a></li>
+		    	<li><a href="#">我的牧场</a></li>
+		    	<li><a href="#">天空之舞</a></li>
+		    	<li><a href="#">王者荣耀</a></li>
+		    </ul>
+		</li>
+		<li><a href="#">留言板</a></li>
+		<li><a href="#">相册</a></li>
+		<li><a href="#">说说</a></li>
+		<li><a href="#">日志</a></li>
+		<li><a href="#">消息</a></li>
+	</ul>
+	</div>
+<!--登陆界面-->
+<div id="loading">
+<a  herf="javascript:void(0);" id="closebtn"></a>
+<p>&nbsp;</p>
+<div id="avatar"><img src= "image/null60110d24f1effa02.jpg"></div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1>您还没有登陆，请先登录</h1>
+<p>&nbsp;</p>
+<input type="text" placeholder="请输入账号">
+<input type="password" placeholder="请输入密码">
+<a id="loding" herf="#">登陆</a>
+</div>
+<!--滚动页面-->
+<div id="fullPage">
+	<div class="section section1">
+		<h1>终于等到你</h1>
+		<h2>到了某个年纪你就会知道<br/>
+一个人的日子真的难熬
+渐渐开始尝到孤单的味道<br/>
+时间在敲打着你的骄傲<br/>
+过了某个路口你就会感到
+彻夜陪你聊天的越来越少<br/>
+厌倦了被寂寞追着跑<br/>
+
+</h2>
+	    <p>Welcom to my zone
+			
+		</p>
+		<a href="#">进一步了解</a>
+	</div>
+	<div class="section section2">
+		<h1>你的特别关心，是我吗</h1>
+		<a href="#">进一步了解</a>
+	</div>
+	<div class="section section3">
+		<h1></h1>
+		<p>
+			
+		</p>
+		<a href="#">进一步了解</a>
+	</div>
+	<div class="section section4">
+		<h1>愿你我从此，不负好时光</h1>
+		<div class="row">
+			<div class="column">
+				<img src='image/二维码.png'>
+			</div>
+			<p>2017-12-8</p>
+		</div>
+	</div>
+</div>	
+				
+		     
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.9/jquery.fullPage.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/move.js/0.5.0/move.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
